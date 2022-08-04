@@ -1,0 +1,16 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*font-family: will be inheritaged to all text-elements inside the body-element
+this is called inheritage. it doesnt work with margins/padding*/
+body {
+  font-family: roboto, Arial;
+  background-color: rgb(248, 248, 248);
+  margin: 0px;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  height: 3000px;
+}
