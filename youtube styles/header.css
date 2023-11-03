@@ -1,7 +1,7 @@
 /*flexbox doesnt go down 2 layers, so u need to make sure
 the element is a flexbox if ur gonna use flex-sytax*/
 
-.header{
+.header {
   height: 55px;
 
   display: flex;
@@ -19,33 +19,24 @@ the element is a flexbox if ur gonna use flex-sytax*/
   z-index: 100;
   /*setting the z-index to 100, let me put 100elements 
   before the elements start to show OVER the header*/
-  
-
-
 }
 
-.left-section{
+.left-section {
   display: flex;
   align-items: center;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   height: 24px;
   margin-left: 24px;
   margin-right: 24px;
-
 }
 
-.youtube-logo{
+.youtube-logo {
   height: 20px;
 }
 
-
-
-
-
-
-.middle-section{
+.middle-section {
   display: flex;
   flex: 1;
   margin-left: 60px;
@@ -54,7 +45,7 @@ the element is a flexbox if ur gonna use flex-sytax*/
   align-items: center;
 }
 
-.searchbar{
+.searchbar {
   flex: 1;
   height: 36px;
   padding-left: 10px;
@@ -65,13 +56,12 @@ the element is a flexbox if ur gonna use flex-sytax*/
   width: 0px;
 }
 
-
 /*how to target placeholder on an input element*/
-.searchbar::placeholder{
+.searchbar::placeholder {
   font-size: 16px;
 }
 
-.search-button{
+.search-button {
   height: 40px;
   width: 66px;
   background-color: rgb(240, 240, 240);
@@ -84,22 +74,20 @@ the element is a flexbox if ur gonna use flex-sytax*/
   transition: background-color 0.15s;
 }
 
-.search-button:hover{
+.search-button:hover {
   background-color: rgb(235, 235, 235);
 }
 
 .search-button,
 .voice-search-button,
 .upload-icon-container,
-.youtube-apps-icon-container{
+.youtube-apps-icon-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-
-
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
@@ -120,9 +108,7 @@ the element is a flexbox if ur gonna use flex-sytax*/
   transition: opacity 0.15s;
   pointer-events: none; /*doesnt show when hovering directyly over tooltip*/
   white-space: nowrap;
-  
 }
-
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
@@ -132,7 +118,7 @@ the element is a flexbox if ur gonna use flex-sytax*/
   opacity: 1;
 }
 
-.voice-search-button{
+.voice-search-button {
   height: 40px;
   width: 40px;
   border-radius: 20px;
@@ -140,44 +126,37 @@ the element is a flexbox if ur gonna use flex-sytax*/
   background-color: rgb(248, 248, 248);
 }
 
-.voice-search-icon{
+.voice-search-icon {
   height: 24px;
 }
 
-.search-icon{
+.search-icon {
   height: 25px;
   margin-top: 4px;
 }
 
-
-
-
-
-
-.right-section{
+.right-section {
   display: flex;
   align-items: center;
   width: 180px;
   justify-content: space-between;
   margin-right: 20px;
   flex-shrink: 0px; /*dont shrink*/
-
 }
 
-.upload-icon{
-  height: 24px;
-
-}
-
-.youtube-apps-icon{
+.upload-icon {
   height: 24px;
 }
 
-.notifications-icon{
+.youtube-apps-icon {
   height: 24px;
 }
 
-.notifications-icon-container{
+.notifications-icon {
+  height: 24px;
+}
+
+.notifications-icon-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -185,7 +164,7 @@ the element is a flexbox if ur gonna use flex-sytax*/
   cursor: pointer;
 }
 
-.notifications-count{
+.notifications-count {
   position: absolute;
   top: -2px;
   right: -5px;
@@ -199,14 +178,8 @@ the element is a flexbox if ur gonna use flex-sytax*/
   border-radius: 10px;
 }
 
-.current-user-picture{
+.current-user-picture {
   height: 32px;
   border-radius: 16px;
   cursor: pointer;
 }
-
-
-
-
-
-
