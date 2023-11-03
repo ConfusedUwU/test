@@ -1,10 +1,8 @@
-
-
-.thumbnail{
+.thumbnail {
   width: 100%; /*width: 100% = takes up100% of the container*/
 }
 
-.video-title{
+.video-title {
   margin-bottom: 12px;
   margin-top: 0px;
   font-size: 14px;
@@ -12,8 +10,8 @@
   line-height: 20px;
 }
 
-@media (max-width: 750px){
-  .video-title{
+@media (max-width: 750px) {
+  .video-title {
     margin-bottom: 12px;
     margin-top: 0px;
     font-size: 13px;
@@ -22,86 +20,78 @@
   }
 }
 
-
-
-.video-title-link{
+.video-title-link {
   color: black;
   text-decoration: none;
 }
 
-
-.video-info-grid{
+.video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
 }
 
-
-
-.profile-picture{
+.profile-picture {
   width: 36px;
   border-radius: 40px;
 }
 
-.thumbnail-row{
+.thumbnail-row {
   position: relative;
   margin-bottom: 8px;
-
-  
 }
 
 .video-author,
-.video-stat{
+.video-stat {
   font-size: 12px;
   color: rgb(96, 96, 96);
 }
 
-.video-author{
+.video-author {
   margin-bottom: 4px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
   .video-author,
-  .video-stat{
+  .video-stat {
     font-size: 11px;
   }
 }
 
-.video-grid{
+.video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
 }
 
-@media (min-width: 1200px){
-  .video-grid{
+@media (min-width: 1200px) {
+  .video-grid {
     margin-left: 135px;
   }
 }
 
 /*this will only activate when screensize is 600px OR less*/
-@media (max-width: 750px){
-  .video-grid{
+@media (max-width: 750px) {
+  .video-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 /*this will only activate if screensize is BETWEEN 751px AND 1001px*/
-@media (min-width: 751px) and (max-width: 1001px){
-  .video-grid{
+@media (min-width: 751px) and (max-width: 1001px) {
+  .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 /*this will only activate when screensize is 1000px OR MORE*/
-@media (min-width: 1000px){
-  .video-grid{
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-
-.video-time{
+.video-time {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   position: absolute;
@@ -113,9 +103,7 @@
   border-radius: 2px;
 }
 
-
-
-.channel-picture{
+.channel-picture {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -124,14 +112,13 @@
 
 /*the container that the tooltip is inside, and where the tooltip will show
 when hovering over this container*/
-.profile-picture-container{
+.profile-picture-container {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 }
 
-
 /*main container for the tooltip*/
-.channel-tooltip{
+.channel-tooltip {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -141,7 +128,7 @@ when hovering over this container*/
   left: -5px;
   border-radius: 5px;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
-  
+
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.15s;
@@ -149,18 +136,17 @@ when hovering over this container*/
 }
 
 /*velger containeren som man skal hovre over, også velger man tooltipen som skal vises*/
-.profile-picture-container:hover .channel-tooltip{
+.profile-picture-container:hover .channel-tooltip {
   opacity: 1;
-  
 }
-.channel-info-tooltip{
+.channel-info-tooltip {
   display: flex;
   flex-direction: column;
   width: 150px;
   justify-content: center;
 }
 
-.channel-picture-tooltip{
+.channel-picture-tooltip {
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -170,7 +156,7 @@ when hovering over this container*/
   margin-right: 10px;
 }
 
-.channel-tooltip-name{
+.channel-tooltip-name {
   font-family: roboto, Arial;
   font-weight: bold;
   color: black;
@@ -178,25 +164,8 @@ when hovering over this container*/
   margin-bottom: 5px;
 }
 
-.channel-tooltip-subscribers{
+.channel-tooltip-subscribers {
   font-family: roboto, Arial;
   columns: lightgray;
   font-size: 12px;
 }
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
